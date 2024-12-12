@@ -110,37 +110,29 @@ const LengthVsSpeed = () => {
   
 };
 
+
 const styles = {
-  pageContainer: {
-    padding: "2rem",
-    backgroundColor: "#f9f9f9",
-  },
-  mainTitle: {
-    fontSize: "2rem",
-    textAlign: "center",
-    marginBottom: "1rem",
-    color: "#333",
+  dropdown: {
+    padding: "0.5rem",
+    fontSize: "1rem",
+    marginTop: "1rem",
+    marginLeft:"2rem",
+    
   },
   chartsGrid: {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    gap: "1.5rem",
-    margin: "0 auto",
-    maxWidth: "1200px",
+    gridTemplateColumns: "repeat(2, 1fr)",
+    gap: "0.5rem",
+    padding: "2rem",
   },
   chartContainer: {
-    backgroundColor: "#fff",
-    border: "1px solid #ddd",
+    border: "1px solid #ccc",
     borderRadius: "8px",
-    padding: "1rem",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    height: "400px",
-  },
-  chartTitle: {
+    padding: "2rem",
     textAlign: "center",
-    fontSize: "1.2rem",
-    marginBottom: "1rem",
-    color: "#555",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    height: "400px",
+    width: "800px",
   },
 };
 

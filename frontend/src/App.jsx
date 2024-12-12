@@ -25,8 +25,9 @@ const App = () => {
       <div>
         <NavBar /> {/* Ensure NavBar is displayed on all pages */}
         <Routes>
+          
           <Route path="/" element={<MainPage />} />
-          <Route path="/DataTrends" element={<Navigate to="/TrafficVolume" />} />  {/* Redirects directly to Traffic Volume */}
+          <Route path="/DataTrends" element={<Navigate to="/Performance" />} />  {/* Redirects directly to Traffic Volume */}
           <Route path="/VideoAnalysis" element={<VideoAnalysis />} />
           <Route path="/Map" element={<Map />} />
           <Route path="/Overview" element={<Overview />} />
